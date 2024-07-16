@@ -1,0 +1,78 @@
+body{
+	background-color: white;
+}
+
+.lugrasimo-regular {
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.fleur-de-leah-regular {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div#banniere{
+  height: 500px;
+  /*image de fond*/
+  background-image: url('images/dragon.jpg');
+  background-size: cover;
+  background-position: center;
+  /*flexbox pour centrer le texte*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div#banniere h1{
+  	color: white;
+	 text-shadow: 0 0 10px black;
+	 text-transform: uppercase;
+	 text-align: center;
+	font-size: 100px;
+	margin-bottom: 10px;
+	
+}
+	
+div#banniere p{
+  	color: white;
+	 text-shadow: 0 0 10px black;
+	 text-transform: uppercase;
+	 text-align: center;
+	font-size: 40px;
+  padding: 2cm;
+}
+
+div#intro {
+	background-color: #000000 ;
+}
+
+div#intro  a{
+	text-decoration: : none;
+}
+
+div#intro p {
+  color: beige;
+}
+
+
+.boutonprincipal {
+	display: flex;
+  	justify-content: space-around;
+}
+	
+
+button:hover {
+	background-color: red;
+} 
+
+button{
+  background-color: #b30825;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
+}
